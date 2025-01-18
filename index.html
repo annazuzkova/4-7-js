@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- html розмітка -->
+
+    <div id="students-container"></div>
+ 
+    <template id="student-template">
+    <h2>{{name}}</h2>
+    <span>{{age}}</span>
+    <p>{{cource}}</p>
+    <div class="check">
+        <input type="checkbox" >
+        <span>був на уроці</span>
+    </div>
+    </template>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
