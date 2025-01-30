@@ -1,0 +1,13 @@
+{{#each students}}
+  <div class="student">
+    <h2 class="student__name">{{this.name}}</h2>
+    <span class="student__age">{{this.age}}</span>
+    <p class="student__leave">{{this.leave}}</p>
+    <p class="student__course">{{this.cours}}</p>
+    <p class="student__term">{{this.term}}</p>
+    <div class="student__presence">
+      <span>Прийшов:</span>
+      <input type="checkbox" />
+    </div>
+  </div>
+{{/each}}
